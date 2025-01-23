@@ -25,9 +25,26 @@
 // console.log(a+b+2)
 // console.log(a+2+b)
 // console.log(typeof(a+"b"))
-console.log(3+4*5%3)
-console.log((3+4)*5%3)
-let a=10
-//++a
-a++
-console.log(a)
+// console.log(3+4*5%3)
+// console.log((3+4)*5%3)
+// let a=10
+// //++a
+// a++
+// console.log(a)
+// // primitive-> String,Number,Boolean,null,undefined,Symbol
+// //non-primitiv-> referenve type->array,objects,functions
+// const f=Symbol('123')
+// const g=Symbol('123')
+// console.log(f===g)
+// this makes new object thats why its not same
+const arr=["ar","jk"];
+console.log(arr)
+let ob={
+     name:"ar",
+     age:25
+}
+console.log(ob)
+const nl=null
+console.log(typeof nl)
+//type of null is object
+console.log(typeof arr)// object
