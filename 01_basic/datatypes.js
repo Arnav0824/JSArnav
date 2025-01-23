@@ -15,7 +15,19 @@
 //1->true
 //"hj"->true
 //""->false
-let a=33
-let string=String(a)
-console.log(typeof string)
-console.log(string+3)
+// let a=33
+// let string=String(a)
+// console.log(typeof string)
+// console.log(string+3)
+// let a=1
+// let b="2"
+// console.log(a+b)
+// console.log(a+b+2)
+// console.log(a+2+b)
+// console.log(typeof(a+"b"))
+console.log(3+4*5%3)
+console.log((3+4)*5%3)
+let a=10
+//++a
+a++
+console.log(a)
