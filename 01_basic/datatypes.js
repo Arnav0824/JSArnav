@@ -48,3 +48,23 @@ const nl=null
 console.log(typeof nl)
 //type of null is object
 console.log(typeof arr)// object
+// primitive-> stack, this stores copy of it, it doesnt change its original value
+//ex->
+let user1="arnav"
+let user2=user1
+user2="singh"
+console.log(user1);
+
+console.log(user2)
+//so user1 still has arnav
+//non-primitive datatypes are stored in heap, in which we access these by reference meaning, original value will get changed
+//ex->
+let userone={
+     email:"arnav@google"
+}
+let usertwo=userone
+usertwo.email="singh@google"
+console.log(userone);
+console.log(usertwo);
+
+
